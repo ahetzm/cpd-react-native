@@ -10,6 +10,10 @@ npm-debug.*
 *.orig.*
 web-build/
 
+# Default ignored files
+/shelf/
+/workspace.xml
+
 # macOS
 .DS_Store
 
@@ -20,3 +24,8 @@ web-build/
 /.idea/vcs.xml
 /.idea/.gitignore
 /.idea/cpd-react-native.iml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea/git_toolbox_prj.xml
+/.idea/workspace.xml
