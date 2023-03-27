@@ -1,9 +1,9 @@
 import {View} from 'react-native';
 import {useFonts} from "expo-font";
 import {useCallback} from "react";
-import Home from "./screens/home";
 import {hideAsync} from "expo-splash-screen";
 import {globalStyles} from "./assets/styles/global-styles";
+import TabNavigation from "./routes/tab";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <View style={globalStyles.container} onLayout={onLayoutRootView}>
-      <Home/>
+      <TabNavigation/>
     </View>
   );
 }
